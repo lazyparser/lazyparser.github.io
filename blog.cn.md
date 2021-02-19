@@ -118,7 +118,7 @@ Yet another personal website.
 - [2010-11-08 : 如何找到研究点 (转载)](hellocompiler/2010-11-08-如何找到研究点-转载/index.html)
 - [2010-10-10 : LLVM 2.8 发布](hellocompiler/2010-10-10-llvm-2_8-release/index.html)
 - [2010-09-25 : GCC Internals 4.5.x 中文版](hellocompiler/2010-09-25-gcc-internals-chinese/index.html)
-- [2010-09-16 : 开张|Hello World](hellocompiler/2010-09-16-开张hello-world/index.html)
+- [2010-09-16 : 开张 Hello World](hellocompiler/2010-09-16-开张hello-world/index.html)
 
 ## 历史数据
 
