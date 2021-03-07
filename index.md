@@ -34,5 +34,15 @@ https://github.com/plctlab
 Our Blog, in Chinese:
 https://github.com/plctlab/PLCT-Weekly
 
+### We are hiring! Both internships and full-time. All remote!
 
-## TODO
+Check out all the information you want to know in one repo:
+https://github.com/lazyparser/weloveinterns
+
+## My public talks and presentations
+
+see https://github.com/lazyparser/talks
+
+## My writings
+
+[极简项目管理 (minimalist team leader)](https://github.com/lazyparser/minimalist-team-leader) This is written in Chinese.
