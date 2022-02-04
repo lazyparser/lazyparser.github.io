@@ -37,7 +37,7 @@ Our Blog, in Chinese:
 ### We are hiring! Both internships and full-time. All remote!
 
 Check out all the information you want to know in one repo:
-https://github.com/lazyparser/weloveinterns
+[https://github.com/lazyparser/weloveinterns](https://github.com/lazyparser/weloveintern)
 
 ## My public talks and presentations
 
