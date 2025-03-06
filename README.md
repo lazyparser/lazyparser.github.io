@@ -1,4 +1,4 @@
-# Welcome to my personal website
+# lazyparser.com
 
 Hi, my name is Wei Wu. This is my personal website.
 
