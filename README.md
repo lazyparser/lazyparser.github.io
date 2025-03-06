@@ -48,3 +48,5 @@ see [https://github.com/lazyparser/talks](https://github.com/lazyparser/talks)
 ## My writings
 
 [极简项目管理 (minimalist team leader)](https://github.com/lazyparser/minimalist-team-leader) This is written in Chinese.
+
+[TED视频评论和推荐](https://github.com/lazyparser/TED-comments)
