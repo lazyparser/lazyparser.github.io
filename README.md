@@ -1,5 +1,7 @@
 # lazyparser.com
 
+Personal website of Wei Wu, built with Jekyll and deployed to GitHub Pages.
+
 Hi, my name is Wei Wu. This is my personal website.
 
 ## HelloCompiler / My Blog in Chinese
@@ -50,3 +52,7 @@ see [https://github.com/lazyparser/talks](https://github.com/lazyparser/talks)
 [极简项目管理 (minimalist team leader)](https://github.com/lazyparser/minimalist-team-leader) This is written in Chinese.
 
 [TED视频评论和推荐](https://github.com/lazyparser/TED-comments)
+
+## Deployment
+
+The `Deploy GitHub Pages` workflow builds the site for pull requests and deploys it on pushes to `main` or `master`. In the repository settings, set **Pages → Build and deployment → Source** to **GitHub Actions**.

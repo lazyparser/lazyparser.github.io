@@ -1,8 +1,11 @@
 title: Wei Wu / @lazyparser
 description: PLCT Lab. OSDT/HelloGCC/HelloLLVM. RISC-V Ambassador.
-google_analytics: 
-show_downloads: true
-theme: jekyll-theme-hacker
+url: https://lazyparser.com
+baseurl: ""
+markdown: kramdown
 
-gems:
-  - jekyll-mentions
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
