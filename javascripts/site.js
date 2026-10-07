@@ -3,6 +3,8 @@
     en: {
       "theme.dark": "Dark mode",
       "theme.light": "Light mode",
+      "theme.switchLight": "Switch to light mode",
+      "theme.switchDark": "Switch to dark mode",
       footer: "Made with curiosity and open source.",
       "hero.eyebrow": "OPEN SOURCE · COMPILERS · RUNTIMES",
       "hero.greeting": "Hello, I'm",
@@ -37,6 +39,8 @@
     zh: {
       "theme.dark": "深色模式",
       "theme.light": "浅色模式",
+      "theme.switchLight": "切换到浅色模式",
+      "theme.switchDark": "切换到深色模式",
       footer: "保持好奇，持续开源。",
       "hero.eyebrow": "开源 · 编译器 · 运行时",
       "hero.greeting": "你好，我是",
@@ -102,7 +106,15 @@
     root.lang = selected;
     document.querySelectorAll("[data-i18n]").forEach(function (element) {
       var value = translations[selected][element.getAttribute("data-i18n")];
-      if (value) element.textContent = value;
+      if (!value) return;
+      var textNode = Array.prototype.find.call(element.childNodes, function (node) {
+        return node.nodeType === Node.TEXT_NODE && node.nodeValue.trim();
+      });
+      if (textNode) {
+        textNode.nodeValue = value;
+      } else {
+        element.textContent = value;
+      }
     });
     localeButtons.forEach(function (button) {
       button.setAttribute("aria-pressed", String(button.dataset.locale === selected));
@@ -110,6 +122,10 @@
     if (themeButton) {
       var theme = root.dataset.theme === "light" ? "light" : "dark";
       themeButton.querySelector("[data-i18n]").textContent = translations[selected]["theme." + theme];
+      themeButton.setAttribute(
+        "aria-label",
+        translations[selected][theme === "light" ? "theme.switchDark" : "theme.switchLight"]
+      );
     }
     savePreference("site-locale", selected);
   }
@@ -119,6 +135,10 @@
     root.dataset.theme = selected;
     if (themeButton) {
       themeButton.setAttribute("aria-pressed", String(selected === "light"));
+      themeButton.setAttribute(
+        "aria-label",
+        translations[root.lang || "en"][selected === "light" ? "theme.switchDark" : "theme.switchLight"]
+      );
       themeButton.querySelector("[data-i18n]").textContent =
         translations[root.lang || "en"]["theme." + selected];
     }
