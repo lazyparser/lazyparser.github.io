@@ -1,0 +1,22 @@
+---
+layout: default
+---
+<article class="post">
+  {% if page.title %}
+  <header class="post-head">
+    <h1>{{ page.title }}</h1>
+    {% if page.date %}
+    <span class="meta">
+      <time datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date: "%Y-%m-%d" }}</time>
+      {% for c in page.categories %}<span class="tag">{{ c }}</span>{% endfor %}
+    </span>
+    {% endif %}
+  </header>
+  {% endif %}
+  <div class="post-content markdown-body">
+    {{ content }}
+  </div>
+  {% if page.url contains '/hellocompiler/' %}
+  <footer class="post-footer"><a href="{{ '/blog.cn.html' | relative_url }}">← 返回博客列表</a></footer>
+  {% endif %}
+</article>

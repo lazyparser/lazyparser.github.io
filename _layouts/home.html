@@ -1,0 +1,16 @@
+---
+layout: default
+---
+<section class="hero">
+  <span class="hero-kicker">{{ page.kicker | default: "Compilers · RISC-V · Open Source" }}</span>
+  <h1>{{ page.title }}</h1>
+  {% if page.tagline %}<p class="hero-lead">{{ page.tagline }}</p>{% endif %}
+  {% if page.roles %}
+  <ul class="chips" aria-label="Roles">
+    {% for role in page.roles %}<li>{{ role }}</li>{% endfor %}
+  </ul>
+  {% endif %}
+</section>
+<article class="markdown-body home-body">
+  {{ content }}
+</article>
