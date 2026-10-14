@@ -1,4 +1,26 @@
-Hi, my name is Wei Wu. This is my personal website.
+---
+layout: home
+title: Hi, I'm Wei Wu.
+tagline: This is my personal website. I work on open source compilers, simulators and runtimes, and help run a few developer communities.
+roles:
+  - Co-founder & Project Director, PLCT Lab
+  - Service man of OSDT / HelloGCC / HelloLLVM
+  - RISC-V Ambassador
+---
+
+- [编译路漫漫 / HelloCompiler](blog.cn.html)
+  My blog in Chinese, migrated from WordPress to Markdown in 2021.
+- [OSDT Community](https://hellogcc.org)
+  Formerly HelloGCC and HelloLLVM. Tech blogs and the annual OSDT Conf.
+- [HelloLLVM](https://hellollvm.org)
+  Meetup notices for the LLVM / compiler community in China.
+- [PLCT Lab](https://plctlab.github.io)
+  Open source compilers, simulators and runtimes. [Repos](https://github.com/plctlab) · [Weekly (中文)](https://github.com/plctlab/PLCT-Weekly)
+- [We are hiring!](https://github.com/lazyparser/weloveinterns)
+  Internships and full-time positions, all remote. Everything you need to know is in one repo.
+- [Talks & presentations](https://github.com/lazyparser/talks)
+  Slides from my public talks.
+{: .cards}
 
 ## HelloCompiler / My Blog in Chinese
 
@@ -13,7 +35,7 @@ hellocompiler.com 是我的个人中文博客。
 
 I am the service man of HelloGCC and HelloLLVM community.
 
-Since 2013, we have a bigger community scope, so we changed the name to OSDT commuinty, which means Open Source Developer Tools. Now the members of our community comes from many fields, e.g. compilers, runtimes, kernel, simulator, static analysis, browser, operating system.
+Since 2013, we have a bigger community scope, so we changed the name to OSDT community, which means Open Source Developer Tools. Now the members of our community come from many fields, e.g. compilers, runtimes, kernel, simulator, static analysis, browser, operating system.
 
 The website of OSDT/HelloGCC (for tech blogs, OSDT Conf):
 [https://hellogcc.org](https://hellogcc.org)
@@ -37,7 +59,7 @@ Our Blog, in Chinese:
 ### We are hiring! Both internships and full-time. All remote!
 
 Check out all the information you want to know in one repo:
-[https://github.com/lazyparser/weloveinterns](https://github.com/lazyparser/weloveintern)
+[https://github.com/lazyparser/weloveinterns](https://github.com/lazyparser/weloveinterns)
 
 ## My public talks and presentations
 
