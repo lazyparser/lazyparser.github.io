@@ -1,4 +1,8 @@
-# 编译路漫漫 / HelloCompiler.com
+---
+layout: page
+title: 编译路漫漫 / HelloCompiler.com
+lang: zh-CN
+---
 
 Yet another personal website.
 
@@ -119,6 +123,7 @@ Yet another personal website.
 - [2010-10-10 : LLVM 2.8 发布](hellocompiler/2010-10-10-llvm-2_8-release/index.html)
 - [2010-09-25 : GCC Internals 4.5.x 中文版](hellocompiler/2010-09-25-gcc-internals-chinese/index.html)
 - [2010-09-16 : 开张 Hello World](hellocompiler/2010-09-16-开张hello-world/index.html)
+{: .archive}
 
 ## 历史数据
 
