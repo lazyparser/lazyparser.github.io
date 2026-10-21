@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en" data-theme="dark">
+<html lang="{{ page.lang | default: site.lang }}" data-theme="dark">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -22,7 +22,7 @@
             <span aria-hidden="true">/</span>
             <button type="button" data-locale="zh" aria-pressed="false">中文</button>
           </nav>
-          <button class="theme-toggle" type="button" aria-pressed="false">
+          <button class="theme-toggle" type="button" aria-label="Switch to light mode" aria-pressed="false">
             <span class="theme-icon" aria-hidden="true">◐</span>
             <span data-i18n="theme.dark">Dark mode</span>
           </button>
@@ -36,6 +36,11 @@
       <footer class="site-footer">
         <span data-i18n="footer">Made with curiosity and open source.</span>
         <a href="https://github.com/lazyparser" rel="noopener noreferrer">GITHUB ↗</a>
+        {% if site.friend_links %}
+        <nav class="friend-links" aria-label="Community">
+          {% for link in site.friend_links %}<a href="{{ link.url }}" rel="noopener noreferrer">{{ link.name }}</a>{% endfor %}
+        </nav>
+        {% endif %}
       </footer>
     </div>
   </body>

@@ -13,6 +13,16 @@ hellocompiler.com 是我的个人中文博客。
 从2021年3月7日开始，我将其从 wordpress 转换到了 GitHub markdown，并将DNS重定向到了 lazyparser.com 。
 请从 [blog.cn.md](blog.cn.md) [HTML](blog.cn.html)  访问我的中文博客内容。
 
+## My public talks and presentations
+
+see [https://github.com/lazyparser/talks](https://github.com/lazyparser/talks)
+
+## My writings
+
+[极简项目管理 (minimalist team leader)](https://github.com/lazyparser/minimalist-team-leader) This is written in Chinese.
+
+[TED视频评论和推荐](https://github.com/lazyparser/TED-comments)
+
 ## OSDT Community (Formerly HelloGCC and HelloLLVM)
 
 I am the service man of HelloGCC and HelloLLVM community.
@@ -27,7 +37,7 @@ The website of HelloLLVM (for meetup notice only):
 
 ## PLCT Lab
 
-I am the co-founder and project director of PLCT Lab. PLCT Lab is working on open source compilers, simulators, and runtimes.
+I was the co-founder and project director of PLCT Lab (2019-2025/10/17). PLCT Lab is working on open source compilers, simulators, and runtimes.
 
 The Blog of PLCT, in English:
 [https://plctlab.github.io](https://plctlab.github.io)
@@ -38,20 +48,6 @@ Our open source repos:
 Our Blog, in Chinese:
 [https://github.com/plctlab/PLCT-Weekly](https://github.com/plctlab/PLCT-Weekly)
 
-### We are hiring! Both internships and full-time. All remote!
-
-Check out all the information you want to know in one repo:
-https://github.com/lazyparser/weloveinterns
-
-## My public talks and presentations
-
-see [https://github.com/lazyparser/talks](https://github.com/lazyparser/talks)
-
-## My writings
-
-[极简项目管理 (minimalist team leader)](https://github.com/lazyparser/minimalist-team-leader) This is written in Chinese.
-
-[TED视频评论和推荐](https://github.com/lazyparser/TED-comments)
 
 ## Deployment
 

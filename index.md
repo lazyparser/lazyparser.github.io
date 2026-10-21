@@ -14,6 +14,7 @@ description: Personal website of Wei Wu (@lazyparser), working on open source co
   <div class="hero-meta">
     <span><span class="meta-label" data-i18n="hero.role.label">FOCUS</span><span data-i18n="hero.role.value">Compiler engineering & open source</span></span>
     <span><span class="meta-label" data-i18n="hero.community.label">COMMUNITY</span><span>OSDT · PLCT Lab</span></span>
+    <span><span class="meta-label" data-i18n="hero.riscv.label">ROLE</span><span data-i18n="hero.riscv.value">RISC-V Ambassador</span></span>
   </div>
 </section>
 
@@ -35,7 +36,7 @@ description: Personal website of Wei Wu (@lazyparser), working on open source co
     <article class="info-card">
       <span class="card-index">02 / RESEARCH & ENGINEERING</span>
       <h3>PLCT Lab</h3>
-      <p data-i18n="plct.copy">Co-founder and project director, working on open source compilers, simulators, and runtimes.</p>
+      <p data-i18n="plct.copy">Co-founder and project director of PLCT Lab from 2019 to October 2025, working on open source compilers, simulators, and runtimes.</p>
       <div class="card-links">
         <a href="https://plctlab.github.io" data-i18n="plct.blog">PLCT Blog <span aria-hidden="true">↗</span></a>
         <a href="https://github.com/plctlab" data-i18n="plct.repos">Open source projects <span aria-hidden="true">↗</span></a>

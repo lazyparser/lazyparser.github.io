@@ -3,9 +3,30 @@ description: PLCT Lab. OSDT/HelloGCC/HelloLLVM. RISC-V Ambassador.
 url: https://lazyparser.com
 baseurl: ""
 markdown: kramdown
+lang: en
+github_url: https://github.com/lazyparser
+repository: lazyparser/lazyparser.github.io
+show_downloads: false
 
 defaults:
   - scope:
       path: ""
     values:
       layout: default
+
+friend_links:
+  - name: HelloGCC / OSDT
+    url: https://hellogcc.org
+  - name: HelloLLVM
+    url: https://hellollvm.org
+  - name: CNRV
+    url: https://cnrv.io
+  - name: 甲辰计划 / Jiachen Project
+    url: https://rv2036.org
+  - name: 松竹梅计划 / SongZhuMei
+    url: https://songzhumei-project.org
+  - name: PLCT Lab
+    url: https://plctlab.github.io
+
+plugins:
+  - jekyll-mentions

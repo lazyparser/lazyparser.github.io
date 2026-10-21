@@ -1,7 +1,7 @@
 ---
 title: 编译路漫漫 / HelloCompiler.com
 description: 编译路漫漫的中文博客文章归档。
-lang: zh
+lang: zh-CN
 ---
 
 <p class="eyebrow page-eyebrow" data-i18n="blog.eyebrow">BLOG ARCHIVE</p>
@@ -125,6 +125,7 @@ lang: zh
 - [2010-10-10 : LLVM 2.8 发布](hellocompiler/2010-10-10-llvm-2_8-release/index.html)
 - [2010-09-25 : GCC Internals 4.5.x 中文版](hellocompiler/2010-09-25-gcc-internals-chinese/index.html)
 - [2010-09-16 : 开张 Hello World](hellocompiler/2010-09-16-开张hello-world/index.html)
+{: .archive}
 
 <h2 data-i18n="blog.history">历史数据</h2>
 

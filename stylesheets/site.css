@@ -409,6 +409,14 @@ button {
   font-size: 9px;
 }
 
+.friend-links {
+  display: flex;
+  flex: 1 1 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px 16px;
+}
+
 .site-content > h1,
 .site-content > h2,
 .site-content > p,
