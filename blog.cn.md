@@ -1,12 +1,14 @@
 ---
-layout: page
 title: 编译路漫漫 / HelloCompiler.com
+description: 编译路漫漫的中文博客文章归档。
 lang: zh-CN
 ---
 
-Yet another personal website.
+<p class="eyebrow page-eyebrow" data-i18n="blog.eyebrow">BLOG ARCHIVE</p>
+<h1 data-i18n="blog.title">编译路漫漫 / HelloCompiler.com</h1>
+<p data-i18n="blog.intro">编译器与软件工程札记，始于 2010 年。</p>
 
-## 博客文章
+<h2 data-i18n="blog.articles">博客文章</h2>
 
 - [2016-03-24 : 如何用TrueCrypt加密Windows系统分区](hellocompiler/2016-03-24-如何用truecrypt加密windows系统分区/index.html)
 - [2016-01-25 : PLDI 2016 Accepted Papers](hellocompiler/2016-01-25-pldi-2016-accepted-papers/index.html)
@@ -125,6 +127,6 @@ Yet another personal website.
 - [2010-09-16 : 开张 Hello World](hellocompiler/2010-09-16-开张hello-world/index.html)
 {: .archive}
 
-## 历史数据
+<h2 data-i18n="blog.history">历史数据</h2>
 
 2010年开始使用 wordpress 搭建个人博客。后来2016年之后随着微信/知乎火起来，写文章就很少了。2021年，希望可以重新拿起笔，多写一点。
